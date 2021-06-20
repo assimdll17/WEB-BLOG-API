@@ -1,0 +1,30 @@
+GET http://localhost:3000/users HTTP/1.1
+
+###
+POST http://localhost:3000/users/
+
+Content-Type: application/json
+
+{
+"username":"assimdll",
+"email": "Josia.58@yahoo.com",
+"password": "XJjkRn8tH",
+"role":"admin",
+"createdAt":"2021-06-19T12",
+"updatedAt":"2021-06-19T12"
+}
+
+###
+PUT http://localhost:3000/users/21
+Content-Type: application/json
+{
+"username":"assimdll diall9",
+"email": "Josia.58@yahoo.com",
+"password": "XJjXkRn8tH",
+"role":"admin",
+"createdAt":"2021-06-19T12",
+"updatedAt":"2021-06-19T12"
+}
+
+###
+DELETE http://localhost:3000/users/21
